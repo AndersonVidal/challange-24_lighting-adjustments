@@ -1,14 +1,14 @@
 <template>
     <div>
-        <LightingSlider />
+        <LightingForm />
     </div>
 </template>
 <script>
-import LightingSlider from './components/LightingSlider.vue'
+import LightingForm from './components/LightingForm.vue'
 export default {
     name: 'LightingAdjustments',
     components: {
-        LightingSlider
+        LightingForm
     },
     data: function () {
         return {
