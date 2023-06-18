@@ -17,8 +17,8 @@ export default {
     data: function () {
         return {
             color: 0,
-            brightness: 0,
-            contrast: 0
+            brightness: 50,
+            contrast: 100
         }
     },
     methods: {
@@ -35,7 +35,7 @@ export default {
             this.$emit('HSLValue', this.takeHsl());
         },
         takeHsl() {
-            return `hsl(${color}, ${contrast}%, ${brightness}%)`;
+            return `hsl(${this.color}, ${this.contrast}%, ${this.brightness}%)`;
         }
     }
 }
