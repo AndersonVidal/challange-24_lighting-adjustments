@@ -32,8 +32,8 @@ export default {
 .title-box {
     width: 100%;
     text-align: center;
-    margin-bottom: 30%;
-    margin-top: 115%;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .title-box > label {

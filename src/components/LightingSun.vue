@@ -27,10 +27,10 @@ export default {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-bottom: 100%;
+    padding-bottom: 250px;
 }
 .sun {
-    height: 127vw;
+    height: 500px;
     width: 150vw;
     border-radius: 50%;
     position: fixed;
